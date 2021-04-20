@@ -1,0 +1,75 @@
+@import url(./grid.css);
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    background-color: #555;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.chainBlock{
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+    min-width: 100px;
+    width: 100%;
+    /* border: 1px solid rgb(255, 255, 255); */
+    margin: 0 auto;
+}
+
+.cardMain{
+    height: 150px;
+    background-color: blue;
+}
+
+.cardInfo{
+    /* background-color: whitesmoke; */
+    padding: 40px 20px;
+    height: 100%;
+    color: rgb(0, 0, 0);
+}
+
+.chainFooter{
+    text-align: center;
+    /* background-color: rgba(0, 0, 0, 0.61); */
+    color: seashell;
+    margin-top: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
